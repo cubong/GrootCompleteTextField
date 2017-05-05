@@ -37,4 +37,4 @@ view.addSubview(textField)
 License
 ----
 
-MIT
+GrootCompleteTextFeild is released under the [MIT license](https://github.com/cubong/GrootCompleteTextFeild/blob/master/LICENSE)
