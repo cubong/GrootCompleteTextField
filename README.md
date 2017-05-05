@@ -2,6 +2,9 @@
 
 *Base on [AutocompleteField](https://github.com/filipstefansson/AutocompleteField)*
 
+
+![Baby Groot](https://images.moviepilot.com/images/c_limit,q_auto:good,w_600/yumrfneyjfepdytstiev/baby-groot-by-dariusartshed.jpg)
+
 Auto-complete words for your UITextField
 
   - Auto-complete when typing in UITextField
