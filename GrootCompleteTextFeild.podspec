@@ -11,10 +11,10 @@ Pod::Spec.new do |s|
 
 
   s.platform     = :ios
-  s.ios.deployment_target   =  '7.0'
+  s.ios.deployment_target   =  "8.0"
 
   s.name         = "GrootCompleteTextFeild"
-  s.version      = '0.1'
+  s.version      = "0.2"
   s.summary      = "Auto-complete words for your UITextField."
 
 
@@ -26,14 +26,14 @@ Pod::Spec.new do |s|
   s.author             = { 'AnhDN' => 'nhan.anh93@gmail.com' }
 
 
-  s.source       = { :git => "https://github.com/cubong/GrootCompleteTextFeild", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/cubong/GrootCompleteTextFeild", :tag => "0.1" }
+
+ s.framework = "UIKit"
 
 
+  s.source_files  ="GrootCompleteTextFeild/**/*.{swift}"
 
-  #s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  #s.exclude_files = "Classes/Exclude"
-
-  # s.public_header_files = "Classes/**/*.h"
+ #s.resources = "GrootCompleteTextFeild/**/*.{png,jpeg,jpg,storyboard,xib}"
 
 
 end
