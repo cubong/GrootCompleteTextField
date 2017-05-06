@@ -13,16 +13,9 @@ Auto-complete words for your UITextField
 
 
 ## Installation
-### CocoaPods(updating)
-
-```
-platform :ios, '8.0'
-pod "GrootCompleteTextField", "~> 1.1" 
-```
 
 ### Manual installation
-Add GrootCompleteTextField.swift into your project.
-
+Import GrootCompleteTextField.swift file into your project.
 
 
 ## Usage
