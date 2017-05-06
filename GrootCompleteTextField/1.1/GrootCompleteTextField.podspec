@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
 
   # 6
-  s.source = { :git => "https://github.com/cubong/GrootCompleteTextField.git", :tag => "#{s.version}"}
+  s.source = { :git => "https://github.com/cubong/GrootCompleteTextField.git", :tag => "1.1"}
 
 
 
