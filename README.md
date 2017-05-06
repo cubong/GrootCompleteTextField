@@ -1,4 +1,4 @@
-# GrootCompleteTextFeild
+# GrootCompleteTextField
 
 *Base on [AutocompleteField](https://github.com/filipstefansson/AutocompleteField)*
 
@@ -17,24 +17,24 @@ Auto-complete words for your UITextField
 
 ```
 platform :ios, '8.0'
-pod "GrootCompleteTextFeild", "~> 1.0" 
+pod "GrootCompleteTextField", "~> 1.0" 
 ```
 
 ### Manual installation
-Add GrootCompleteTextFeild.swift into your project.
+Add GrootCompleteTextField.swift into your project.
 
 
 
 ## Usage
 **Storyboard**
 
-Add a UITextField in your Storyboard, and then giving it the GrootCompleteTextFeild subclass.
+Add a UITextField in your Storyboard, and then giving it the GrootCompleteTextField subclass.
 
 **Code**
 ```
-import GrootCompleteTextFeild
+import GrootCompleteTextField
 
-let textField = GrootCompleteTextFeild(frame: CGRectMake(10, 10, 200, 40), suggestions: ["Mesut Özil","Alexis Sánchez","Laurent Koscielny","Aaron Ramsey"]
+let textField = GrootCompleteTextField(frame: CGRectMake(10, 10, 200, 40), suggestions: ["Mesut Özil","Alexis Sánchez","Laurent Koscielny","Aaron Ramsey"]
 view.addSubview(textField)
 ```
 License
