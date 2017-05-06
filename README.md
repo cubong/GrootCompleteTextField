@@ -17,7 +17,7 @@ Auto-complete words for your UITextField
 
 ```
 platform :ios, '8.0'
-pod "GrootCompleteTextField", "~> 1.0" 
+pod "GrootCompleteTextField", "~> 1.1" 
 ```
 
 ### Manual installation
